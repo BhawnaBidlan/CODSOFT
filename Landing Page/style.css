@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans';
+} 
+/* Header Section  */
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("/Asian\ Food\ Background ");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+div .logo{
+    float: left;
+    width: 200px;    
+    height: 200px;    
+}
+.article{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+    color: white;
+}
+.article h1{
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.article p{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+/* About-US */
+.heading{    
+    width: 950px;
+    margin: auto;
+}
+.heading h1{
+    font-size: 80px;
+    padding-top: 30px;
+}
+.heading p{
+    font-size: 25px;
+}
+
+/* Menu section  */
+.food{
+    border: 2px solid rgb(176, 214, 79);
+    width: 340px;
+    height:300px;
+    display: block;
+    float: left;
+    margin:15px;
+    padding: 10px;
+    align-content: center;
+}
+.food img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.food p{
+    font-size: 17px;
+}
+
+ #menu{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("/background_image-transformed.webp"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 96vh;  
+    background-position: center; 
+}
+#menu{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+#menu h1{
+    font-size: 80px;
+}
+#menu h4{
+    font-size: 30px;
+} 
+div ul {
+    color: white;
+    font-size: 30px; 
+}
+div ul li{
+    padding: 10px;
+    font-size: 30px;
+}
+.chicken{
+    border: 2px solid rgb(176, 214, 79);
+    width: 300px;
+    height:300px;
+    margin-top:15px;   
+    margin-left: 135px;
+    padding: 10px;
+    list-style-type: none;
+    border-radius: 50px;
+}
+.spaghetti{
+    border: 2px solid rgb(176, 214, 79);
+    width: 300px;
+    height:300px;   
+    margin:15px;
+    padding: 10px;
+    list-style-type: none;
+    border-radius: 50px;
+}
+.juice{
+    border: 2px solid rgb(176, 214, 79);
+    width: 300px;
+    height:300px;
+    margin-top: 15px;
+    margin-right: 135px;
+    padding: 10px;
+    list-style-type: none;
+    border-radius: 50px;
+}
+
+
+/* Timming section  */
+.open{
+    text-align: center;
+}
+.head{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.head h1{
+    font-size: 80px;
+}
+table{
+    border: 4px solid black;
+    font-size: 30px;
+    width: 180vh;
+    height: 240px;
+    margin: 0 auto;
+}
+table td{
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 20px;
+}
+thead{
+    background-color: rgb(176, 214, 79);
+}
+
+/* Reservation  */
+.reservation{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("/Birthday.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 96vh;  
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+.reserve{
+    border: 3px dashed white;
+    width: 580px;
+    padding: 40px;
+    margin-right: 30px;
+}
+.occasion{
+    border: 3px dashed white;
+    width: 580px;
+    padding: 40px;
+    margin-left: 30px;
+}
+ .reservation h1{
+    font-size: 80px;
+}
+ .reservation h4{
+    font-size: 25px;
+    padding-top: 30px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    height: 250px;  
+}
+.contain h2{
+    font-size: 40px;
+    padding: 20px;
+    
+}
+.contain p{
+    font-size: 25px;
+    padding: 20px;
+}
+
+/* contact */
+.contact-img img{
+    width: 800px;
+    margin: 50px 10px 0 50px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.contact-heading h2{
+    font-size: 40px;
+    padding: 20px;
+}
+.contact-heading{
+    margin-top: 150px;
+}
+.contact-heading p{
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+/* Add your CSS styles here */
+*{
+    background-color: lightblue;
+}
+.calculator {
+    width: 300px;
+    margin: 150px auto;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color:  rgb(113, 103, 103);
+    padding: 30px;
+}
+.calculator h1{
+    background-color:  rgb(113, 103, 103);
+    font: bolder;
+    font-size: 50px;
+}
+
+input[type="text"] {
+    width: 90%;
+    height: 40px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: rgb(113, 103, 103);
+    color: whitesmoke;
+    border: 0;
+    outline: 0;
+    box-shadow: -9px -9px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 25px;
+}
+.buttons{
+    background-color:  rgb(113, 103, 103);
+
+}
+
+.buttons button {
+    width: 50px;
+    background-color:  rgb(113, 103, 103);
+    height: 50px;
+    font-size: 24px;
+    color: whitesmoke;
+    margin: 5px;
+    border: 0;
+    outline: 0;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
